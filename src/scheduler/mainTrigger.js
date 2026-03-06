@@ -36,7 +36,6 @@ async function generateForChannel(channel, channelIndex) {
       sub_category: currentEpisode.subCategory,
       episode: currentEpisode.episode,
       channel_id: channelId,
-      channel_index: channelIndex,
       is_retry: false,
       attempt: 1
     });
